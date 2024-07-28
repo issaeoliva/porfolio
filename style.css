@@ -1,0 +1,196 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  background-color: #004369;
+  margin-top: 50px;
+  word-spacing: 1px;
+  
+}
+
+
+
+header {
+position: fixed;
+top: 0;
+width: 200%;
+padding: 10px 10px;
+z-index: 1000;
+}
+
+
+header img {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 25px solid #FF9C01 ;
+  }
+
+.consub {
+  margin-top: -30px;
+}
+
+.container1 {
+  position: relative;
+  margin-left: 20px;
+  background-color: #FF9C01;
+  width: 1200px;
+  height: 200px;
+ 
+}
+
+.sidebar {
+  width: 450px;
+  color: white;
+  margin-top: 150px;
+  margin-left: 80px;
+  padding: 100px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: fixed;
+    
+}
+
+.container2{
+  padding-top: 10px;
+  padding-right: 250px;
+ 
+}
+.container2 h1 {
+  font-family: "Cinzel", serif;
+  color: #29292B;
+  font-size: 4em;
+  text-align:center;
+  
+}
+
+.container2 p {
+  text-align:center;
+     
+    
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+.nav-item a:hover {
+  background-color: #FF9C01;
+}
+
+.content {
+ flex: 1;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: visible;
+  margin-left: 500px;
+  margin-top: 200px;
+  padding-top: 100px;
+  padding: 20px;
+  padding-right: 150px;
+ }
+.content a {
+  color: white;  
+}
+.content a:hover {
+  color: #FF9C01;
+}
+
+.content strong {
+  font-size: 18px;
+}
+.sectionln {
+  padding: 10px;
+  border-bottom: .5px solid #FF9C01;
+  }
+
+.nav {
+  list-style: none;
+  
+}
+.navbutton {
+ list-style: none;
+ display: inline-flex;
+ padding-top: 10px;
+ margin-right: 10px; 
+}
+
+.workdescription {
+  padding-left: 90px;
+}
+
+.h1 {
+  font-size: 3em;
+}
+.navbtnItem {
+ margin-left: 10px;
+
+}
+
+svg:hover {
+ fill:#FF9C01;
+ 
+    
+}
+
+.projectImage {
+  height: 200px;
+  width: 375px;
+  float: left;
+}
+
+figcaption {
+  text-align: center;
+  padding-right:70px;
+}
+
+
+section {
+  padding-bottom: 50px;
+}
+
+.contactDesc {
+font-size: small;
+padding-left: 30px;
+}
+
+.cta {
+  padding: 20px;
+  
+}
+
+button {
+  background-color: #FF9C01;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+  
+}
+button:hover {
+  background-color: white; 
+  color: #004369;
+}
+
+.sectioncontent {
+  padding: 20px;
+}
+
+figure {
+  padding: 30px;
+}
+  /* Mobile styles */
+@media (max-width: 600px) {
+  header {
+    position:relative;
+    display: block;
+    }
+  }
